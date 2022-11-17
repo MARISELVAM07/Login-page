@@ -5,158 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thogupu</title>
-<style>
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+    <link rel="stylesheet" type="text/css" href="./style.css">
 
-}
-html{
-/*     background: linear-gradient(pink, yellowgreen) ;  */
-     background-color: whitesmoke; 
-    font-family: sans-serif;
-    line-height: 1.5;
-    
-}
-   
-.header {
-    
-    display: flex;
-    margin-top:10%;
-    flex-direction: column;
-}
-.header img {
-    object-fit:contain;
-    height:56px;
-}
-
-.leftimg {
-   
-    display: block;
-    flex-direction: row;
-    
-}
-.leftimg img {
-    
-    height:300px;
-    width: 300px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-
-
-}
-
-.rightimg {
-    
-    display: flex;
-    margin-right: 0%;
-    flex-direction: row;
-    justify-content: right;
-}
-.rightimg img {
-    
-    height:300px;
-    width: 300px;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-}
-.footer{
-    display:flex;
-    flex-direction: column; 
-    
-}
-.footer img{
-    
-    height:50px;
-    object-fit: contain;
-    position:relative;
-    top:100px;
-}
-.footer p{
-    text-align: center;
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 70px;
-    font-size: 12px;
-}
-span{
-    color: aqua;
-}
-.mainbody{
-    
-    margin:10px auto;
-    display: flex;
-    justify-content: center;
-    
-
-}
-.mainbody h3{
-    
-    margin-top: 60px;
-}
-.mainbody input{
-    width:350px;
-    height: 60px;
-    padding:10px;
-    margin: 5px;
-    font-size: 15px;
-    border-radius: 2%;
-    border:solid darkgray 1px;
-}
-
-#next{
-    margin-top:25px;
-    margin-bottom: 15px;
-}
-.mainbody h2{
-    text-align: center;
-    font-weight:500;
-    font-size: 15px;
-    color: gray;
-}
-button{
-    margin: 5px;
-    padding: 10px 15px;
-    background-color: transparent;
-    color: crimson;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width:350px;
-    height: 60px;
-    
-}
-
-
-    
-    
-
-form{
-    margin-top: 20px;
-    border:1px solid transparent;
-    background-color:white ;
-    border-radius: 2%;
-    padding: 20px;
-/*      box-shadow: 10px 10px 15px 10px black;
-           
-    
-            background-image:conic-gradient(red,green,black,blue);
-            Border: groove black 10px;
-            border-radius: 50% ;
-            padding:50px;
-            box-sizing: border-box; */
-            
-
-
-}
-
-    
-    </style>
 </head>
 <body>
     <div class="header" > 
@@ -168,7 +18,7 @@ form{
             <h3>Login</h3>
             <h6>official Email Address</h6>
             
-            <input id="email" type="email" title="Please fill out this field" name="" placeholder=" Enter Email address">
+            <input id="email" type="email" title="Please fill out this field" name="" placeholder=" Enter Email address" required="">
             
             <br>
             
